@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component
 
-Mobile Screenshot
+Desktop Screenshot
 
 ![Design preview for the Stats preview card component coding challenge](./screenshots/Desktop-version.png)
 
