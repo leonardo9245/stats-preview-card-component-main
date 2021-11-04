@@ -1,6 +1,6 @@
 :root {
   /*background colors*/
-  --background-color: hsl(233, 47%, 7%);
+  --background-color: hsl(233, 49%, 7%);
   --container-color: hsl(244, 38%, 16%);
 
   /*Font colors*/
@@ -47,7 +47,7 @@ body {
 }
 
 .image::before {
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 0.5rem 0.5rem 0 0;
   width: 100%;
@@ -61,13 +61,14 @@ body {
 }
 
 .content p {
-  font: 400 1rem "inter", sans-serif;
+  font: 400 0.9rem 'inter', sans-serif;
   color: var(--p-second-color);
+  line-height: 22px;
 }
 
 .content-1 h1 {
   margin: 1rem;
-  font: 700 1.7rem "inter", sans-serif;
+  font: 700 1.7rem 'inter', sans-serif;
   color: var(--h1-font-color);
 }
 
@@ -87,14 +88,17 @@ body {
   margin: 1.5rem;
 }
 
-.content-2 h2 {
-  font: 700 1.5rem "inter", sans-serif;
+.content-2 strong {
+  font: 700 1.3rem 'inter', sans-serif;
   color: var(--h2-font-color);
 }
 
 .content-2 p {
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   text-transform: uppercase;
+  font: 'Lexend Deca', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
 }
 
 /*FOOTER*/
@@ -123,7 +127,6 @@ body {
   .container {
     margin: 0;
     display: flex;
-    flex-direction: row;
     min-width: 90%;
     position: absolute;
     top: 50%;
@@ -147,6 +150,7 @@ body {
 
   .content {
     min-width: 50%;
+    padding: 2rem;
   }
   .content .content-1 {
     text-align: left;
@@ -155,12 +159,12 @@ body {
     margin: 2rem;
   }
   .content .content-2 {
-    margin: 1rem;
+    margin: 1rem auto;
     display: flex;
-    justify-content: right;
+    padding: 0 0.8rem;
   }
 
-  .content .content-2 h2 {
+  .content-2 .cont {
     text-align: left;
   }
 
